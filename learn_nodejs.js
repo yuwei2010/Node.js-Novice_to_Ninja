@@ -1,12 +1,21 @@
-// Meine Freunde als Einzelvariablen
-var freund_1 = 'Peter';
-var freund_2 = 'Paul';
-var freund_3 = 'Mary';
-// oder als Sammlung in der Form eines Arrays
-var freunde = [
-'Peter',
-'Paul',
-'Mary'
-];
+const http = require('http');
+console.log("Hello, world!");
 
-console.log(freunde)
+// Import required modules
+// Create a server
+const server = http.createServer((req, res) => {
+    // Set the response header
+    res.setHeader('Content-Type', 'text/plain');
+
+    // Send a response
+    res.end('Hello, world!');
+});
+
+// Start the server
+server.listen(3000, () => {
+    console.log('Server is running on port 3000');
+});
+
+
+
+
