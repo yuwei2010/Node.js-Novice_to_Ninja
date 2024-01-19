@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "name": "20_nodejs",
+  "description": "https://github.com/alsotang/node-lessons/tree/master/lesson1",
+  "version": "1.0.0",
+  "main": "learn_nodejs.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
